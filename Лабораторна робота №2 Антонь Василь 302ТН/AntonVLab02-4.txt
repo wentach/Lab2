@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Група студентів</title>
+	<meta name="description" content="Опис групи студентів">
+	<meta name="keywords" content="студенти, група, університет">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #003366;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			font-size: 36px;
+			margin: 0;
+		}
+		section {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 20px;
+		}
+		.student {
+			background-color: #f2f2f2;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+			margin: 10px;
+			padding: 20px;
+			text-align: center;
+			width: 300px;
+		}
+		.student img {
+			border-radius: 50%;
+			height: 150px;
+			margin-bottom: 20px;
+			width: 150px;
+		}
+		.student h2 {
+			font-size: 24px;
+			margin: 0;
+		}
+		.student p {
+			font-size: 16px;
+			margin: 10px 0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Наша група студентів</h1>
+	</header>
+	<section>
+		<div class="student">
+			<img src="student1.jpg" alt="Фото студента">
+			<h2>Іванов Іван</h2>
+			<p>Студент 302ТН</p>
+			<p>Спеціальність: 122 Комп'ютерні науки</p>
+		</div>
+		<div class="student">
+			<img src="student2.jpg" alt="Фото студента">
+			<h2>Петров Петро</h2>
+			<p>Студент 302ТН</p>
+			<p>Спеціальність: 122 Комп'ютерні науки</p>
+		</div>
+		<div class="student">
+			<img src="student3.jpg" alt="Фото студента">
+			<h2>Сидорова Марія</h2>
+			<p>Студентка 302ТН</p>
+			<p>Спеціальність: 122 Комп'ютерні науки</p>
+		</div>
+		<div class="student">
+			<img src="student4.jpg" alt="Фото студента">
+			<h2>Ковальчук Олег</h2>
+			<p>Студент 302ТН</p>
+			<p>Спеціальність: 122 Комп'ютерні науки</p>
+		</div>
+	</section>
+</body>
+</html>

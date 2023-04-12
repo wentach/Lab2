@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Моя веб-сторінка</title>
+    <meta name="description" content="Ця сторінка присвячена мені та моєму хобі - програмуванню.">
+    <meta name="keywords" content="веб-сторінка, про себе, хобі, програмування, C++, студент, комп'ютерні науки">
+  </head>
+  <body style="background-color: #e0d48b; font-family: Calibri;">
+    <h1>Про себе</h1>
+    <p style="text-align: justify;">
+      <strong><em><u>Антонь Василь</u></em></strong>, студент групи 302ТН, спеціальності 122 Комп'ютерні науки.
+    </p>
+    <h2>Моє хобі</h2>
+    <h3>Програмування</h3>
+    <pre>
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+    cout &lt;&lt; "Hello, world!" &lt;&lt; endl;
+    return 0;
+}
+    </pre>
+    <p>Я люблю програмувати, особливо мовою C++. Це дуже цікаво та захоплююче!</p>
+    <p>Студент групи 302ТН Антонь В.В.</p>
+    <img src="programmer.jpg" alt="Картинка програміста" width="200" height="200">
+  </body>
+</html>
